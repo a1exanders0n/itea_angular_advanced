@@ -1,0 +1,31 @@
+<div class="wrapper">
+  <h2>bestsellers</h2>
+</div>
+
+<div *ngFor="let product of products">
+  <!-- <div style="background-color: white">
+    <img
+      [src]="product.image"
+      style="object-fit: contain; width: 288px; height: 288px"
+      alt=""
+    />
+  </div> -->
+  <div
+    style="
+      display: flex;
+      width: 288px;
+      height: 288px;
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+      padding: 4px;
+    "
+  >
+    <img
+      [src]="product.image"
+      style="max-width: 280px; max-height: 280px"
+      alt=""
+    />
+  </div>
+  <span>{{ product.title }}</span>
+</div>

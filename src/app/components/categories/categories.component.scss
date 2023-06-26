@@ -1,0 +1,37 @@
+mat-list-item {
+  text-transform: uppercase;
+  border-bottom: 2px solid #a5a3a0;
+
+  .listitem-content {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    p {
+      color: #a5a3a0;
+      transform: scale(1);
+
+      transition: all 0.3s ease-in-out;
+    }
+    mat-icon {
+      color: #a5a3a0;
+      transform: scale(1);
+
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    border-bottom: 2px solid #080808;
+    .listitem-content {
+      color: #080808;
+      padding-left: 16px;
+      p {
+        color: #080808;
+      }
+      mat-icon {
+        color: #080808;
+      }
+    }
+  }
+}
