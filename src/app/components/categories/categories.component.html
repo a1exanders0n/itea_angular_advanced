@@ -1,11 +1,19 @@
 <div class="wrapper">
   <div class="left-part">
-    <h2>categories</h2>
-    <img src="" alt="" />
+    <div class="pic-block">
+      <h2>categories</h2>
+      <div>
+        <img
+          id="categories-image"
+          src="https://img.freepik.com/free-photo/flat-lay-natural-self-care-products-composition_23-2148990019.jpg"
+          alt=""
+        />
+      </div>
+    </div>
   </div>
   <div class="right-part">
     <mat-nav-list role="list">
-      <mat-list-item role="listitem"
+      <mat-list-item role="listitem" (mouseenter)="onListItemHover('skincare')"
         ><div
           class="d-flex justify-content-between align-items-center listitem-content"
         >
@@ -16,7 +24,7 @@
             fontIcon="arrow_forward_ios"
           ></mat-icon></div
       ></mat-list-item>
-      <mat-list-item role="listitem"
+      <mat-list-item role="listitem" (mouseenter)="onListItemHover('hair')"
         ><div
           class="d-flex justify-content-between align-items-center listitem-content"
         >
@@ -27,7 +35,9 @@
             fontIcon="arrow_forward_ios"
           ></mat-icon></div
       ></mat-list-item>
-      <mat-list-item role="listitem"
+      <mat-list-item
+        role="listitem"
+        (mouseenter)="onListItemHover('bath and body')"
         ><div
           class="d-flex justify-content-between align-items-center listitem-content"
         >
@@ -38,7 +48,7 @@
             fontIcon="arrow_forward_ios"
           ></mat-icon></div
       ></mat-list-item>
-      <mat-list-item role="listitem"
+      <mat-list-item role="listitem" (mouseenter)="onListItemHover('fragrance')"
         ><div
           class="d-flex justify-content-between align-items-center listitem-content"
         >
@@ -49,7 +59,7 @@
             fontIcon="arrow_forward_ios"
           ></mat-icon></div
       ></mat-list-item>
-      <mat-list-item role="listitem"
+      <mat-list-item role="listitem" (mouseenter)="onListItemHover('gifts')"
         ><div
           class="d-flex justify-content-between align-items-center listitem-content"
         >

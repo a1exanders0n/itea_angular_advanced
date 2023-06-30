@@ -1,16 +1,21 @@
 <div class="wrapper">
   <div class="left-side">
-    <div class="logo">
-      <p>QUAI</p>
-      <p>shop</p>
+    <div class="logo" routerLink="/">
+      <p class="logo-name">QUAI</p>
+      <div class="shop">
+        <p class="shop-name">s</p>
+        <p class="shop-name">h</p>
+        <p class="shop-name">o</p>
+        <p class="shop-name">p</p>
+      </div>
     </div>
-    <button>shop</button>
-    <button>about</button>
-    <button>contact</button>
+    <button class="navigation-item">shop</button>
+    <button class="navigation-item">about</button>
+    <button class="navigation-item">contact</button>
   </div>
   <div class="right-side">
-    <button>search</button>
-    <button>account</button>
-    <button>cart</button>
+    <button class="navigation-item">search</button>
+    <button class="navigation-item" routerLink="/account">account</button>
+    <button class="navigation-item" routerLink="/cart">cart</button>
   </div>
 </div>

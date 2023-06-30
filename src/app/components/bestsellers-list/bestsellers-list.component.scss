@@ -1,0 +1,28 @@
+:host {
+  width: 100%;
+}
+.product-carousel {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.carousel-product {
+  max-width: 288px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.image-container {
+  display: flex;
+  width: 288px;
+  height: 288px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}

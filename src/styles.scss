@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../src/scss/mixins.scss";
 
 html,
 body {
@@ -12,4 +13,8 @@ body {
 
 .mat-typography p {
   margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
 }

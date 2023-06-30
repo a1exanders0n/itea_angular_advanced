@@ -1,0 +1,40 @@
+:host {
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side,
+.right-side {
+  display: flex;
+}
+.logo {
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 16px 24px 0 0;
+}
+.logo-name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.shop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+.shop-name {
+  font-size: 8px;
+}
+.navigation-item {
+}
+.right-side {
+}

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FollowUsComponent } from './components/follow-us/follow-us.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProductItemComponent } from './components/product-item/product-item.component';
+import { CartComponent } from './components/cart/cart.component';
+import { MainBodyComponent } from './components/main-body/main-body.component';
+import { AccountComponent } from './components/account/account.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +31,10 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutUsComponent,
     FollowUsComponent,
     FooterComponent,
+    ProductItemComponent,
+    CartComponent,
+    MainBodyComponent,
+    AccountComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +44,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MatListModule,
     MatIconModule,
     FormsModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
