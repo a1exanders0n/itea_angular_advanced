@@ -37,7 +37,7 @@ import { AccountComponent } from './components/account/account.component';
     AccountComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
