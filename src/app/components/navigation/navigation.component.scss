@@ -9,7 +9,9 @@
 }
 .left-side,
 .right-side {
+  align-items: center;
   display: flex;
+  height: 48px;
 }
 .logo {
   height: 64px;
@@ -35,6 +37,7 @@
   font-size: 8px;
 }
 .navigation-item {
+  transition: all 0.3s ease-in-out;
 }
 .right-side {
 }
